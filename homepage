@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="product.html">Products</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Explore my work across various fields!</p>
+    </section>
+    <section class="preview">
+      <div><a href="art.html"><img src="art-preview.jpg" alt="Art Portfolio"><p>Art</p></a></div>
+      <div><a href="photography.html"><img src="photography-preview.jpg" alt="Photography Portfolio"><p>Photography</p></a></div>
+      <div><a href="product.html"><img src="product-preview.jpg" alt="Product Portfolio"><p>Products</p></a></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+</body>
+</html>
